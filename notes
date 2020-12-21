@@ -1,0 +1,43 @@
+Ref: 
+    - https://medium.com/@phatdev/build-a-real-time-chat-application-with-websocket-socket-io-redis-and-docker-in-nestjs-499c2513c18
+    - https://github.com/phatvo21/nest-chat-realtime
+Other related refs:
+    - https://www.npmjs.com/package/socket.io-redis/v/6.0.1
+    - https://www.npmjs.com/package/socket.io-redis/v/5.4.0
+    - https://socket.io/docs/v3/
+
+Main Server Dependencies:
+    "@nestjs/common": "^7.6.3",
+    "rxjs": "^6.6.3",
+    "socket.io-redis": "^5.4.0"
+
+Client Dependencies:
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+
+_____________________________________________________
+Redis Adapter version   |	Socket.IO server version
+_____________________________________________________
+4.x	                    |   1.x
+5.x	                    |   2.x
+6.x	                    |   3.x
+_____________________________________________________
+
+
+Notes: 
+- upgrade of socket.io-redis to ^6.0 results in a bug
+
+ToDo:
+    - test angular client to nodejs
+    - implement logging plugins for both server
+
+21/12/2020
+- Test sending message using single node...DONE
+    - go through socket.io-redis docs
+    - test sending message between 2+ nodes
+
+
+
+
+  
+
