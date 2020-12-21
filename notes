@@ -32,6 +32,9 @@ ToDo:
     - implement logging plugins for both server
 
 21/12/2020
+- Update readme.
+
+21/12/2020
 - Test sending message using single node...DONE
     - go through socket.io-redis docs
     - test sending message between 2+ nodes
